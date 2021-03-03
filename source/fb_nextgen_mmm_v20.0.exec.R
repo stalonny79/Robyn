@@ -16,26 +16,45 @@ Sys.setlocale("LC_TIME", "English")
 #### load libraries
 ## R version 3.6.0 (2019-04-26)
 ## RStudio version 1.2.1335
+##install.packages('minpack.lm')
+##install.packages('data.table') # version 1.12.2
+##install.packages('stringr') # version 1.4.0
+##install.packages('lubridate') # version 1.7.4
+##install.packages('doParallel') # version 1.0.15
+##install.packages('doSNOW') # version 1.0.18
+##install.packages('foreach') # version 1.4.8
+##install.packages('glmnet') # version 2.0.18
+##install.packages('lhs') # version 1.0.1
+##install.packages('car') # version 3.0.3
+##install.packages('StanHeaders') # version 2.21.0
+##install.packages('prophet') # version 0.5
+##install.packages('ggplot2') # version 3.3.0
+##install.packages('gridExtra') # version 2.3
+##install.packages('see') # version 0.5.0
+##install.packages('PerformanceAnalytics') # version 2.0.4
+##install.packages('nloptr') # version 1.2.1
+##install.packages('minpack.lm') # version 1.2
+
 rm(list=ls()); gc()
 
 ## Please make sure to install all libraries before rurnning the scripts
-library(data.table) # version 1.12.2
-library(stringr) # version 1.4.0
-library(lubridate) # version 1.7.4
-library(doParallel) # version 1.0.15
-library(doSNOW) # version 1.0.18
-library(foreach) # version 1.4.8
-library(glmnet) # version 2.0.18
-library(lhs) # version 1.0.1
-library(car) # version 3.0.3
-library(StanHeaders) # version 2.21.0
-library(prophet) # version 0.5
-library(ggplot2) # version 3.3.0
-library(gridExtra) # version 2.3
-library(see) # version 0.5.0
-library(PerformanceAnalytics) # version 2.0.4
-library(nloptr) # version 1.2.1
-library(minpack.lm) # version 1.2
+library('data.table') # version 1.12.2
+library('stringr') # version 1.4.0
+library('lubridate') # version 1.7.4
+library('doParallel') # version 1.0.15
+library('doSNOW') # version 1.0.18
+library('foreach') # version 1.4.8
+library('glmnet') # version 2.0.18
+library('lhs') # version 1.0.1
+library('car') # version 3.0.3
+library('StanHeaders') # version 2.21.0
+library('prophet') # version 0.5
+library('ggplot2') # version 3.3.0
+library('gridExtra') # version 2.3
+library('see') # version 0.5.0
+library('PerformanceAnalytics') # version 2.0.4
+library('nloptr') # version 1.2.1
+library('minpack.lm') # version 1.2
 
 ################################################################
 #### load data & scripts
